@@ -34,5 +34,4 @@ if response.status_code == 200:
     print("Links saved to links.csv file")
 
 else:
-    print("Request failed")
-    print("Hello, World!")
+    print("Request failed and uski ma ki aankh")
