@@ -39,4 +39,4 @@ if response.status_code == 200:
 
 else:
     print("Request failed")
-    print("Ayega Modi jobhi Ukhad na hai Ukhadlo")
+    print("Hello, World!")
