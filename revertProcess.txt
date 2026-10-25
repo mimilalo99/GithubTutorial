@@ -1,0 +1,11 @@
+1286  git add FindClubsAndSchedules.py
+ 1287  git commit -m "original file"
+ 1288  git push origin main
+ 1289  ls
+ 1290  nano FindClubsAndSchedules.py
+ 1291  git add FindClubsAndSchedules.py
+ 1292  git commit -m "change1"
+ 1293  git push origin main
+ 1294  git revert --no-edit HEAD
+ 1295  git push origin main
+ 1296  git push origin mai git log --oneline -n 5
