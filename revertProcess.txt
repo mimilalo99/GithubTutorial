@@ -1,3 +1,28 @@
+# 0) go to repo
+cd /Users/macintosh/Documents/PythonProjects/GithubTutorial
+
+# 1) create and switch to new branch
+git checkout -b TdStagin
+
+# 2) add/move file into this branch (if file already exists, just keep it)
+# (optional move example)
+# mv revertProcess.txt docs/revertProcess.txt
+
+# 3) edit file, then commit on TdStagin
+git add revertProcess.txt
+git commit -m "Update revert process notes"
+
+# 4) push branch
+git push -u origin TdStagin
+
+# 5) bring change to main (recommended: merge)
+git checkout main
+git pull origin main
+git merge TdStagin
+git push origin main
+
+
+
 git add FindClubsAndSchedules.py
 git commit -m "original file"
 git push origin main
