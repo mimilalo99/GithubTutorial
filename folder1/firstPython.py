@@ -31,7 +31,7 @@ if response.status_code == 200:
         for link in links:
             writer.writerow([link])
 
-    print("Links saved to links.csv file")
+    print("Links saved to links.csv file and ayega Modi")
 
 else:
-    print("Request failed and uski ma ki aankh")
+    print("Ayega to Modi")
