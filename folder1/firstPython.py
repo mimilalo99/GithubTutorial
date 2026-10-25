@@ -31,7 +31,7 @@ if response.status_code == 200:
         for link in links:
             writer.writerow([link])
 
-    print("Links saved to links.csv file and ayega Modi")
+    print("CJP means Ayega Modi")
 
 else:
     print("Ayega to Modi")
